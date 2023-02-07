@@ -38,10 +38,6 @@ export default {
     },
     {
       file: pkg.module,
-      format: "es",
-    },
-    {
-      file: 'rollup-typescript-sass-package-template.js',
       format: 'esm',
       // Removes the hash from the asset filename
       assetFileNames: '[name][extname]'
